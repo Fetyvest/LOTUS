@@ -1,0 +1,61 @@
+.info {
+    font-family: var(--fontRU);
+    margin-top: 40px;
+}
+
+/* .info__content {
+} */
+
+.info__tittle {
+    font-size: var(--fontTitle);
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.info__block {
+    font-size: clamp(0.813rem, 0.773rem + 1.263vi, 1.563rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 10px;
+}
+
+/* .info__time {
+} */
+
+/* .info__reg {
+} */
+
+/* .info__address {
+} */
+
+.info__2gis {
+    margin-top: 10px;
+    border-radius: 100px;
+    border: 2px solid black;
+    padding: 10px 30px;
+    transition: all 0.5s;
+    color: black;
+}
+
+.info__2gis:hover {
+    color: saddlebrown;
+    border: 2px solid saddlebrown;
+}
+
+@media(max-width: 650px) {
+    .info__tittle {
+        margin-bottom: 10px;
+    }
+
+    .info__2gis:hover {
+        color: black;
+        border: 2px solid black;
+    }
+
+    .info__2gis:active {
+        color: saddlebrown;
+        border: 2px solid saddlebrown;
+    }
+}

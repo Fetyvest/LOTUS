@@ -1,0 +1,37 @@
+.work1 {
+    font-family: var(--fontRU);
+    margin-top: 40px;
+}
+
+/* .work1__content {
+} */
+
+.work1__title {
+    font-size: var(--fontTitle);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.work1__photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.work1__img {
+    border-radius: 10px;
+    border: 2px black solid;
+    height: 500px;
+    box-shadow: 5px 5px 7px #00000055;
+}
+
+@media(max-width: 1175px) {
+    .work1__photos {
+        justify-content: center;
+    }
+
+    .work1__img {
+        height: calc(100px + 40vw);
+    }
+}

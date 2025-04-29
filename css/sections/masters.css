@@ -1,0 +1,141 @@
+.masters {
+    font-family: var(--fontRU);
+    margin-top: 40px;
+}
+
+/* .masters__content {
+} */
+
+.masters__title {
+    font-size: var(--fontTitle);
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.masters__list {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.masters__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    background-color: #ffffff99;
+    border-radius: 10px;
+    padding: 25px;
+    transition: all 0.5s;
+    box-shadow: 5px 5px 10px #00000055;
+}
+
+.masters__card:hover {
+    transform: scale(1.01);
+}
+
+.masters__img {
+    width: calc(150px + 9vw);
+    border-radius: 5px;
+}
+
+.masters__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+    margin-top: 20px;
+    font-size: clamp(0.5rem, 0.474rem + 0.842vi, 1rem);
+}
+
+.masters__name {
+    font-size: clamp(0.813rem, 0.773rem + 1.263vi, 1.563rem);
+    font-weight: 600;
+}
+
+.masters__text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+/* .masters__desc {
+} */
+
+/* .masters__exp {
+} */
+
+.masters__social {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+}
+
+/* .masters__phone {
+} */
+
+.masters__phone span {
+    text-decoration: underline;
+}
+
+.masters__btn {
+    width: calc(75px + 4vw);
+    height: calc(25px + 1vw);
+    background-color: white;
+    border-radius: 5px;
+    border: black solid 1px;
+    transition: all 0.5s;
+}
+
+.masters__btn:hover {
+    background-color: #eeeeee;
+}
+
+@media(max-width: 1250px) {
+    .masters__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .masters__card {
+        width: 90vw;
+    }
+
+    .masters__desc br {
+        display: none;
+    }
+}
+
+@media(max-width: 650px) {
+    .masters__card:active {
+        transform: scale(1.01);
+    }
+
+    .masters__card:hover {
+        transform: scale(1);
+    }
+
+    .masters__btn:active {
+        background-color: #eeeeee;
+    }
+
+    .masters__btn:hover {
+        background-color: #ffffff;
+    }
+}
+
+@media(min-width: 2000px) {
+    .masters__img {
+        width: 337px;
+    }
+
+    .masters__btn {
+        width: 150px;
+        height: 45px;
+    }
+}

@@ -1,0 +1,11 @@
+@import url(normalize.css);
+@import url(basic.css);
+@import url(sections/header.css);
+@import url(sections/greetings.css);
+@import url(sections/about.css);
+@import url(sections/masters.css);
+@import url(sections/work1.css);
+@import url(sections/work2.css);
+@import url(sections/work3.css);
+@import url(sections/info.css);
+@import url(sections/footer.css);

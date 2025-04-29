@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    /* border: solid 1px lime !important; */
+}
+
+:root {
+    --fontEN: "Montserrat", sans-serif;
+    --fontRU: "Lora", serif;
+    --fontTitle: clamp(1rem, 0.921rem + 2.526vi, 2.5rem);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: beige;
+}
+
+ul, ol, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.work__container {
+    max-width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.logo {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.5s;
+}
+
+.logo:hover {
+    color: beige;
+}
+
+.logo-text {
+    font-size: clamp(0.938rem, 0.781rem + 5vi, 1.875rem);
+    font-weight: 600;
+    font-family: var(--fontEN);
+}
+
+.logo-desc {
+    font-family: var(--fontRU);
+    font-size: clamp(0.469rem, 0.391rem + 2.5vi, 0.938rem);
+    font-weight: 500;
+}
+
+.ghost {
+    opacity: 0;
+    cursor: default;
+}

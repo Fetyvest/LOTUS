@@ -1,0 +1,53 @@
+.greetings {
+    background: url(../../img/greetings/greetings-img-pc.jpg) center/cover no-repeat;
+    width: 100vw;
+    height: calc(100vw / 16 * 9);
+}
+
+.greetings__black {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    width: 100vw;
+    height: calc(100vw / 16 * 9);
+}
+
+.greetings__content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.greetings__text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    font-family: var(--fontRU);
+}
+
+.greetings__title {
+    font-size: clamp(0.5rem, 0.145rem + 5.678vi, 4.688rem);
+    text-shadow: 2px 2px 5px #000000cc;
+}
+
+.greetings__desc {
+    font-size: clamp(0.25rem, 0.149rem + 1.61vi, 1.438rem);
+}
+
+.greetings__text span {
+    font-family: var(--fontEN);
+    font-weight: 500;
+}
+
+@media(max-width: 750px) {
+    .greetings {
+        background: url(../../img/greetings/greetings-img.jpg) no-repeat center/cover;
+        height: 100vw;
+    }
+
+    .greetings__black {
+        height: 100vw;
+    }
+}

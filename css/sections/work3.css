@@ -1,0 +1,37 @@
+.work3 {
+    font-family: var(--fontRU);
+    margin-top: 40px;
+}
+
+/* .work3__content {
+} */
+
+.work3__title {
+    font-size: var(--fontTitle);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.work3__photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.work3__img {
+    border-radius: 10px;
+    border: 2px black solid;
+    height: 500px;
+    box-shadow: 5px 5px 7px #00000055;
+}
+
+@media(max-width: 1200px) {
+    .work3__photos {
+        justify-content: center;
+    }
+
+    .work3__img {
+        height: calc(100px + 40vw);
+    }
+}

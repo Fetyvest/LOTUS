@@ -1,0 +1,37 @@
+.work2 {
+    font-family: var(--fontRU);
+    margin-top: 40px;
+}
+
+/* .work2__content {
+} */
+
+.work2__title {
+    font-size: var(--fontTitle);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.work2__photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.work2__img {
+    border-radius: 10px;
+    border: 2px black solid;
+    height: 420px;
+    box-shadow: 5px 5px 7px #00000055;
+}
+
+@media(max-width: 1245px) {
+    .work2__photos {
+        justify-content: center;
+    }
+
+    .work2__img {
+        height: calc(100px + 40vw);
+    }
+}
